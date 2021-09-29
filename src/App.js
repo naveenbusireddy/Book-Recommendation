@@ -83,7 +83,7 @@ export default function App() {
         ))}
       </div>
       <div style={{ textAlign: "left" }}>
-        <ul style={{ paddingInlineStart: "0" }}>
+        <ul style={{ paddingInline: "2rem" }}>
           {booksGenreDB[selectedGenre].map((book) => (
             <li
               key={book.name}
@@ -97,12 +97,18 @@ export default function App() {
               }}
             >
               {" "}
-              <div style={{ backgroundColor: "gray", fontSize: "large" }}>
+              <div
+                style={{
+                  margin: "center",
+                  backgroundColor: "gray",
+                  fontSize: "large"
+                }}
+              >
                 {book.name}
-              </div>
+              </div>{" "}
               <div style={{ backgroundColor: "green", fontSize: "large" }}>
                 {book.rating}
-              </div>
+              </div>{" "}
               <div style={{ fontSize: "medium" }}>{book.description}</div>
             </li>
           ))}
