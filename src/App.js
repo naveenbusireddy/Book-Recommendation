@@ -35,6 +35,12 @@ var booksGenreDB = {
       description:
         "Restoring and Maintaining Soil Health, is about restoring the capacity of your soil to perform all the functions it was intended to perform. This book is not another fanciful guide on how to continuously manipulate and amend your soil to try and keep it productive. Written by Jon Stika",
       rating: "4/5"
+    },
+    {
+      name: "Dirt to Soil",
+      description:
+        "Gabe Brown’s Dirt to Soil could not be more timely, as farmers are beginning to see an increase in costs of the fertilizers and many other inputs they rely on. Gabe provides us with his complete story of how he transitioned to a largely self-renewing and self-regulating (regenerative) farming system. Written by Gabe Brown",
+      rating: "3.5/5"
     }
   ],
   Business: [
@@ -49,6 +55,12 @@ var booksGenreDB = {
       description:
         "From the creator of Valuetainment, the #1 YouTube channel for entrepreneurs, comes a practical and effective guide for thinking more clearly and achieving your most audacious business goals. Written by Patrick Bet-David ",
       rating: "4/5"
+    },
+    {
+      name: "Zero to One",
+      description:
+        "Crisply written, rational and practical, Zero to One should be read not just by aspiring entrepreneurs but by anyone seeking a thoughtful alternative to the current pervasive gloom about the prospects for the world. Written by Peter Thiel",
+      rating: "4.5/5"
     }
   ]
 };
